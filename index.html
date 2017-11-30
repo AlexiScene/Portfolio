@@ -2,18 +2,19 @@
 <html>
 <head>
 	<title>Portfolio</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minum-scale=1.0">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
 
-<div class="contenedor">
+<div class="contenedor" id="contenedor">
 	<section class="tarjeta">
 		
 		<section class="slider_banner">
-			<div class="banner">
+			<!-- div al que llamamos padre -->
+			<div class="banner" id="banner"> 
 				<img class="slide active" src="img/banner.jpg" alt="">
 				<img class="slide" src="img/banner2.jpg" alt="">
 				<img class="slide" src="img/banner3.jpg" alt="">
@@ -33,20 +34,20 @@
 				<!-- article encierra todos los slides -->
 				<article id="info">
 					<div class="slide active">
-						<h1 class="nombre">Alexis Aciar</h1>
-						<p class="trabajo">Estudiante de Analisis y Programacion de Sistemas</p>
-						<p class="pais"><img src="img/bandera.png">Argentina</p>
-					</div>
+							<h1 class="nombre">Alexis Aciar</h1>
+							<p class="trabajo">Estudiante</p>
+							<p class="pais"><img src="img/bandera.png" alt="">Argentina</p>
+						</div>
 
 					<div class="slide">
 						<h2 class="subtitulo">Informacion</h2>
-						<p class="texto">Soy egresado de la carrera Analisis y Programacion de Sistemas</p>
+						<p class="texto">Tengo 23 años y soy egresado de la carrera Analisis y Programacion de Sistemas. En la cual me anote porque no sabia de progrmacion y era algo que siempre quise aprender</p>
 					</div>
 
 
 					<div class="slide">
 						<h2 class="subtitulo">Conocimientos</h2>
-						<p class="texto">Nivel Intermedio de PHP y principiante de JavaScript</p>
+						<p class="texto">Nivel Intermedio de PHP y principiante de JavaScript. Y actualmente adquiriendo conocimiento sobre el fremework Laravel</p>
 					</div>
 					
 				</article>
@@ -65,6 +66,9 @@
 		</section>
 	</section>
 </div>
+
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 </html>
