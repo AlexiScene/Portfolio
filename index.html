@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+
+<div class="contenedor">
+	<section class="tarjeta">
+		
+		<section class="slider_banner">
+			<div class="banner">
+				<img class="slide active" src="img/banner.jpg" alt="">
+				<img class="slide" src="img/banner2.jpg" alt="">
+				<img class="slide" src="img/banner3.jpg" alt="">
+				<img class="slide" src="img/banner4.jpg" alt="">
+			</div>
+			<!-- El id se utiliza para conectarse al javascript y la clase al css-->
+			<a href="#" id="banner-prev" class="flecha-banner anterior"><span class="fa fa-chevron-left"></span></a>
+			<a href="#" id="banner-next" class="flecha-banner siguiente"><span class="fa fa-chevron-right"></span></a>
+		</section>
+
+		<section class="slider_info">
+			<!-- El id se utiliza para conectarse al javascript y la clase al css -->
+			<a href="#" id="info-prev" class="flecha-info anterior"><span class="fa fa-chevron-left"></span></a>
+			<a href="#" id="info-next" class="flecha-info siguiente"><span class="fa fa-chevron-right"></span></a>
+			<!-- El id se utiliza para conectarse al javascript y la clase al css -->
+			<section id="informacion" class="informacion">
+				<!-- article encierra todos los slides -->
+				<article id="info">
+					<div class="slide active">
+						<h1 class="nombre">Alexis Aciar</h1>
+						<p class="trabajo">Estudiante de Analisis y Programacion de Sistemas</p>
+						<p class="pais"><img src="img/bandera.png">Argentina</p>
+					</div>
+
+					<div class="slide">
+						<h2 class="subtitulo">Informacion</h2>
+						<p class="texto">Soy egresado de la carrera Analisis y Programacion de Sistemas</p>
+					</div>
+
+
+					<div class="slide">
+						<h2 class="subtitulo">Conocimientos</h2>
+						<p class="texto">Nivel Intermedio de PHP y principiante de JavaScript</p>
+					</div>
+					
+				</article>
+
+				<div class="botones" id="botones"></div>
+
+			</section>
+
+		</section>
+
+		<section class="redes-sociales">
+			<!-- behance es un sitio donde sepuede subir portafolios -->
+			<a href="#" class="behance"><span class="fa fa-behance"></span></a>
+			<a href="https://www.facebook.com/alexis.aciar" class="facebook"><span class="fa fa-facebook-official"></span></a>
+			<a href="https://www.youtube.com/channel/UCzQqlzofo1hbPqppxVNW8fQ?disable_polymer=true" class="youtube"><span class="fa fa-youtube"></span></a>
+		</section>
+	</section>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: url('../img/bg2.png');
+	/*cover para que abarque todo el ancho*/
+	background-size: cover;	
+	/*fixed para que el dondo de pantalla no se mueva*/
+	background-attachment: fixed;
+	font-family: 'Open Sans', Sans-serif, Arial, Helvetica;
+}
+
+a {text-decoration: none; }
+
+.contenedor {
+	width: 90%;
+	max-width: 700px;
+	margin: auto;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.tarjeta {
+	background: #fff;
+	margin: 40px 0;
+	border-radius: 5px;
+	overflow: hidden;
+	z-index: 1000;
+}
