@@ -53,6 +53,7 @@ var altoContenedor = function(){
 			'height': altoVentana + 'px'
 	});
 }
+}
 
 altoBanner();
 altoInfo();
@@ -200,7 +201,7 @@ $('#botones').children('span').first().addClass('active');
 			info.padre.children('.slide').first().addClass('active').animate({
 				'left': 0
 			});
-
+			/////////////////////////////////////////////////////////
 			$('#botones').children('.active').removeClass('active');
 			$('#botones').children('span').first().addClass('active');
 
